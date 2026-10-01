@@ -1,0 +1,9 @@
+{
+  "metrics": {
+    "accuracy": 1.0,
+    "ece": 0.048699999999999966,
+    "latency_p50_ms": 2165.8748000045307,
+    "robustness_consistent": true,
+    "ambiguous_case_appropriately_uncertain": true
+  }
+}

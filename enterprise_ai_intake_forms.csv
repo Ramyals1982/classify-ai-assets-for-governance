@@ -1,0 +1,2 @@
+System_ID,Name,Description,Trigger_financial_credit,Trigger_hr_recruitment,Trigger_biometrics,Trigger_critical_infrastructure,Govern_ownership,Govern_policies,Govern_training,Govern_legal,Map_context,Map_data_lineage,Measure_testing,Measure_fairness,Manage_incident_response,Manage_monitoring
+GCC-AI-5AC7D4,OptiHire VIdeo Analyzer,OptiHire VIdeo Analyzer,No,No,Yes,No,Level 3,Level 3,Level 3,Level 3,Level 3,Level 1,Level 3,Level 3,Level 3,Level 2

@@ -1,0 +1,19 @@
+# Local System 1 decision engine
+laya
+
+# Data handling and processing
+pandas
+
+# Interactive dashboard / intake form UI framework
+streamlit
+
+# Charts on the leadership dashboard
+plotly
+
+# Test suite (pytest optional; test_laya_suite.py also runs standalone)
+pytest
+
+# Optional: install the OPA CLI separately (not a pip package) so
+# opa_bridge.py can evaluate ai_governance.rego with the real engine
+# instead of its Python fallback. See:
+# https://www.openpolicyagent.org/docs/latest/#running-opa

@@ -1,0 +1,40 @@
+{
+  "benchmark": "LocalLLaMA/typed-decisions + Custom Governance",
+  "model": "Laya (Fine-Tuned 2xT4)",
+  "n_cases": 400,
+  "metrics": {
+    "accuracy": 0.7825,
+    "soft_accuracy": 0.57,
+    "brier_score": 0.0521,
+    "ece": 0.1498,
+    "score_mae": 0.2201,
+    "within_1_level": 0.995,
+    "latency_p50_ms": 152.2
+  },
+  "comparison": [
+    {
+      "Model": "TypeSafe Jev 1.13.0",
+      "Kind": "general",
+      "Accuracy": 0.727,
+      "Soft Acc": 0.58,
+      "Brier": 0.148,
+      "ECE": 0.144,
+      "Score MAE": 0.391,
+      "Within 1 Level": "0.952",
+      "ms/case": 710,
+      "Cost/Case": "$0.0004 (API)"
+    },
+    {
+      "Model": "Laya (Fine-Tuned 2xT4)",
+      "Kind": "fine-tuned",
+      "Accuracy": 0.782,
+      "Soft Acc": 0.57,
+      "Brier": 0.052,
+      "ECE": 0.15,
+      "Score MAE": 0.22,
+      "Within 1 Level": "0.995",
+      "ms/case": 152.2,
+      "Cost/Case": "$0.00 (Self-Hosted)"
+    }
+  ]
+}
